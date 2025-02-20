@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/c/dev/Projetos/PersonAPI/PersonAPI.csproj": {}
+    "C:\\dev\\Projetos\\PersonAPI\\PersonAPI.csproj": {}
   },
   "projects": {
-    "/mnt/c/dev/Projetos/PersonAPI/PersonAPI.csproj": {
+    "C:\\dev\\Projetos\\PersonAPI\\PersonAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/dev/Projetos/PersonAPI/PersonAPI.csproj",
+        "projectUniqueName": "C:\\dev\\Projetos\\PersonAPI\\PersonAPI.csproj",
         "projectName": "PersonAPI",
-        "projectPath": "/mnt/c/dev/Projetos/PersonAPI/PersonAPI.csproj",
-        "packagesPath": "/home/italo/.nuget/packages/",
-        "outputPath": "/mnt/c/dev/Projetos/PersonAPI/obj/",
+        "projectPath": "C:\\dev\\Projetos\\PersonAPI\\PersonAPI.csproj",
+        "packagesPath": "C:\\Users\\italo\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\Projetos\\PersonAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/italo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\italo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -48,6 +47,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.ApiDescription.Server": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.0.14, )"
             }
           },
           "imports": [
@@ -69,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
