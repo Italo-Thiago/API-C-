@@ -6,6 +6,19 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonAPI", "PersonAPI.csproj", "{5EAD77BB-8ED3-8772-659F-B23D8E83C54C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Routes", "Routes", "{01D03981-FA88-61F6-4631-9FCC8246ACB6}"
+	ProjectSection(SolutionItems) = preProject
+		Routes\PersonRoute.cs = Routes\PersonRoute.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{7E5E3D99-03B0-3438-6A3D-D9E8D97DA366}"
+	ProjectSection(SolutionItems) = preProject
+		Models\PersonModel.cs = Models\PersonModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{015FE221-96B2-289B-A0E8-6E7354784A75}"
+	ProjectSection(SolutionItems) = preProject
+		Data\PersonContext.cs = Data\PersonContext.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
